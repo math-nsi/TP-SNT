@@ -55,4 +55,29 @@ def c7(f):
         if m!=f(i):
             test=False
     affrep(test)
+    
+# Fonction qui valide le TP8
+def c8(f):
+    test=True
+    for i in range(40,100):
+        if i<70:
+            m=0.75*i
+        else:
+            m=0.55*i
+        if m!=f(i):
+            test=False
+    affrep(test)
+    
+# Fonction qui valide le TP9
+def c9(f):
+    test=True
+    for i in range(1500,1700):
+        if i<1600:
+            m=1.06*i
+        else:
+            m=1.04*i
+        if m!=f(i):
+            test=False
+    affrep(test)
+
 
