@@ -79,5 +79,14 @@ def c9(f):
         if m!=f(i):
             test=False
     affrep(test)
+    
+# Fonction qui valide le TP10
+def c10(f):
+    if [f(1200),f(1500),f(1800),f(2000)]==[108.0,135.0,198.0,220.0]:
+        test=True
+    else:
+        test=False
+    affrep(test)    
+    
 
 
